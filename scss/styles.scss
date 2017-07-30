@@ -349,7 +349,7 @@ footer {
     position: relative;
     height: 100vh;
     min-height: 500px;
-    max-height: 1080px;
+    max-height: 1122px;
     background: url(../images/background.jpeg);
     background-size: cover;
     padding: 15px;
@@ -870,6 +870,10 @@ footer {
         max-height: auto;
         padding: 100px 15px;
     }
+	
+	#lead-overlay {
+		height: 395px;
+	}
 
     #lead-content {
         position: relative;
@@ -907,6 +911,10 @@ footer {
         bottom: 0;
         height: 100%;
     }
+	
+	#lead-overlay {
+		height: 370px;
+	}
 
     #mobile-menu-open, #mobile-menu-close {
         display: block;
@@ -988,4 +996,7 @@ footer {
         }
     }
 
+	#lead-overlay {
+		height: 350px;
+	}
 }
