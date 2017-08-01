@@ -864,6 +864,10 @@ footer {
 // Medium Devices
 @media only screen and (max-width : 992px) {
 
+    #lead-down {
+        display: none;
+    }
+
     #lead {
         height: auto;
         min-height: auto;
@@ -872,7 +876,7 @@ footer {
     }
 	
 	#lead-overlay {
-		height: 395px;
+		height: 455px;
 	}
 
     #lead-content {
@@ -913,7 +917,7 @@ footer {
     }
 	
 	#lead-overlay {
-		height: 370px;
+		height: 420px;
 	}
 
     #mobile-menu-open, #mobile-menu-close {
@@ -945,10 +949,6 @@ footer {
         a {
             padding: 10px 20px;
         }
-    }
-
-    #lead-down {
-        display: none;
     }
 
     .education-block {
@@ -997,6 +997,6 @@ footer {
     }
 
 	#lead-overlay {
-		height: 350px;
+		height: 385px;
 	}
 }
